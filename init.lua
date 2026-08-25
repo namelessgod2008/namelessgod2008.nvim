@@ -1,0 +1,17 @@
+--core
+require("core.options")
+require("core.keymaps")
+--pluginloader
+require("plugins.plugins")
+require("plugins.loader")
+--pluginconfig
+require("plugins.configs.mason")
+require("plugins.configs.blinkcmp")
+require("plugins.configs.neotree")
+require("plugins.configs.telescope")
+require("plugins.configs.lualine")
+require("plugins.configs.tokyonight")
+--lsp
+require("lsp")
+--treesitter
+require("plugins.configs.treesitter-auto")
